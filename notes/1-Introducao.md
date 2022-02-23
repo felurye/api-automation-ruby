@@ -50,6 +50,7 @@ expect(atual).to_not match(expected)
 ### Instalação
 
 > gem install rspec
+
 > rspec --init
 
 Ou adcione-o em seu gemfile e execute:
