@@ -10,7 +10,7 @@
 O HTTParty, é uma Ruby gem para realizar requisições de web services e examinar as saídas resultantes dessas requisições. 
 Por padrão, ele gerará a resposta (resultado produzido) como um objeto Ruby no formato pp (pretty print que é útil para aumentar a estrutura da saída).
 
-O uso do HTTPParty pode ser para pequenas consultas formatadas no formato curl ou estruturado para automazar testes de regressão em um API.
+O uso do HTTParty pode ser para pequenas consultas formatadas no formato curl ou estruturado para automazar testes de regressão em um API.
 
 ### Realiza request do tipo:
 * GET
@@ -22,7 +22,7 @@ O uso do HTTPParty pode ser para pequenas consultas formatadas no formato curl o
 
 > gem install httparty
 
-Ou adcione o httpparty em seu gemfile e execute:
+Ou adcione o httparty em seu gemfile e execute:
 
 > bundle install
 
