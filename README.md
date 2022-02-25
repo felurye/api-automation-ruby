@@ -3,3 +3,7 @@
 ## API utilizada para os testes
 
 * [ServeRest](https://serverest.dev/)
+
+## Configuração
+
+> bundle install

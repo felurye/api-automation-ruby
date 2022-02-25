@@ -3,6 +3,7 @@
 * [Ruby](https://rubyinstaller.org/)
 * HTTParty
 * RSpec
+* Cucumber
 
 
 ## HTTParty
@@ -47,6 +48,19 @@ expect(atual).to_not match(expected)
 
 [Lista de Matchers](https://rubydoc.info/github/rspec/rspec-expectations/RSpec/Matchers).
 
+
+## Cucumber
+
+config:
+
+para gerar um projeto cucumber:
+
+> cucumber --init
+
+para gerar os métodos: 
+
+> cucumber -t@tag_name
+
 ### Instalação
 
 > gem install rspec
@@ -61,7 +75,7 @@ source "https://rubygems.org" do
 end
 ```
 
-> bundle install
+> bundler install
 
 ### Arquitetura
 
@@ -76,3 +90,4 @@ _____
 ## Referências
 
 Jeremias Araújo, [Virada da Qualidade Extra - Testes de API's usando Ruby + HTTParty e RSpec](https://www.youtube.com/watch?v=UxM3AMLAdEw)
+Raphael Alencar, [QArentena - 25 - Automação de API-REST com Ruby](https://www.youtube.com/watch?v=WGtVikyX-no&ab_channel=Iterasys)
